@@ -25,8 +25,8 @@ third_column = [row[2] for row in data]
 candidateSet = set(third_column)
 candidateList = list(candidateSet)
 
-votesList = []         #create an empty list to add profit and loss data to
-percentList = []                 #create an empty list to add change data for each row    
+votesList = []         #create an empty list to add votes for each candidate
+percentList = []                 #create an empty list to add percentage of votes for each candidate
 
 totalVotes = int(len(data))   #calculate total votes 
 
